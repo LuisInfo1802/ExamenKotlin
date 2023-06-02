@@ -5,8 +5,8 @@ class CuentaBanco {
         var numCuenta=0;
         var nombre="";
         var banco="";
-        var saldo=0.0
-        var cantidad=0.0;
+        var saldo:Double
+        var cantidad:Double
 
     constructor(numCuenta: Int, nombre: String, banco: String, saldo: Double, cantidad: Double) {
         this.numCuenta = numCuenta
@@ -21,7 +21,8 @@ class CuentaBanco {
     {
 
 
-        saldo=saldo+cantidad
+        saldo=saldo+cantidad;
+
             return saldo;
     }
 
